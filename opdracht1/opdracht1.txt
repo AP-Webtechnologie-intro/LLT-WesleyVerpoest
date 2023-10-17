@@ -1,17 +1,18 @@
  Benoem je onderwerp
 
- voetbalclub Cappellen FC
+bieren
 
 
  Bedenk welke pagina's je nodig hebt.
 homepage
 overzicht
- team
- geschiedenis
- uitslagen
- sponsors
- gemeente
- keepers
+ Topic 1: Titel: "Verschillende biersoorten"
+ Topic 2: Titel: "Bierbrouwen"
+ Topic 3: Titel: "Bierproeverij"
+ Topic 4: Titel: "Bier en gerechten"
+ Topic 5: Titel: "Biercultuur"
+ Topic 6: Titel: "Biermerken"
+contact
  
  Verzamel de nodige inhoud teksten, afbeeldingen, titels, ...
  zie bijgevoegd bestand
@@ -21,7 +22,6 @@ overzicht
 
  Onderzoek stijlen van de concurrentie bekijk andere websites die over een gelijkaardig thema gaan
 
-http://www.rcfc.be/
-https://kskheist.be/homepage-2/
-https://www.sporting.be/
-https://www.hoogstratenvv.be/
+https://www.thebrewsociety.be/nl/home/
+https://www.bierista.nl/actueel/bierista-beste-informatieve-bierwebsite
+https://www.biernet.nl/
