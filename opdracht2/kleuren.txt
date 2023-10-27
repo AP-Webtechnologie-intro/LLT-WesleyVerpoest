@@ -1,0 +1,4 @@
+kleur1 (60%): #edd1bc
+kleur2 (30%): #ece2aa
+kleur3 (10%): #baa42a
+tekstkleur :  #6b5e55
