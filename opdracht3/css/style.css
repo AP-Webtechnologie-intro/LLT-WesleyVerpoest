@@ -1,4 +1,17 @@
 body {
     padding: 20px;
-    
-  }
+  background-color:#edd1bc;
+
+}
+
+section  {
+
+  background-color:#edd1bc;
+}
+article {
+
+  background-color: #edd1bc;
+}
+table,p,li,tbody,nav,table,td,tr,h6,h1,h3,button,a,head{
+  color: #d01b24;
+}
