@@ -17,6 +17,18 @@
     <script src="https://kit.fontawesome.com/0135cd3494.js" crossorigin="anonymous"></script>
     <!-- eigen geschreven css voor jouw html-bestand -->
     <link href="./css/style.css" rel="stylesheet">
+
+      <!-- LEAFLET -->
+  <!-- voeg het leaflet css-bestand toe om de kaart van standaard opmaak te voorzien -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <!-- voeg het mapStyle.css bestand toe. Hierin zetten we alle css specifiek voor de kaart -->
+  <link rel="stylesheet" href="css/mapStyle.css">
+  <!-- voeg de leaflet.js javascript toe aan de pagina en check de integriteit ervan -->
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <!-- voeg het mapScript.js script toe aan de pagina en laad het als de pagina geladen is. -->
+  <script defer src="js/map.js"></script>
 </head>
 
 <body>
@@ -78,9 +90,9 @@
     </section>
     <p class="text-center">Heb je vragen, suggesties of wil je gewoon hallo zeggen? We horen graag van je! <br>Gebruik
         het onderstaande formulier om contact met ons op te nemen. We proberen zo snel mogelijk te reageren.</p>
-        <main class="col-md-9">
+        <main class="col-md-8 col-sm-12">
             <section class="row">
-                <form class="col-md-8">
+                <form class="col-md-8 col-sm-12">
                     <fieldset class="mb-3">
                         <label class="form-label" for="Voornaam">Naam <span>*</span></label>
                         <input class="form-control border-dark" type="text" name="naam" id="Voornaam" required="">
@@ -103,13 +115,14 @@
                     </fieldset>
                     <button type="submit" class="btn border-dark">Verzenden</button>
                 </form>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12 pt-4">
                     
-                    <div class="map-placeholder text-center">
-                        <p>Map Placeholder</p>
-                        <!-- Replace the following line with your actual map code -->
-                        <div id="your-map-id"></div>
-                    </div>
+                    <section id="map">
+                        
+                        <div id="contact-Map">
+
+                        </div>
+                    </section>
                 </div>
             </section>
         </main>
@@ -118,7 +131,7 @@
         <br>
         <h6 class="text-center"><strong><u>Contactgegevens :</u></strong></h6>
         <section class="row justify-content-center">
-            <section class="col-md-3 ">
+            <section class="col-md-4 col">
                 <article class="card text-center border border-0">
                     <address class="card-body">
                         <p><u> Wesley Verpoest :</u></p>
@@ -129,13 +142,13 @@
                     </address>
                 </article>
             </section>
-            <section class="col-md-3">
+            <section class="col-md-4 col-sm-4">
                 <article class="card text-center border border-0">
                     <address class="card-body ">
                         <p ><u> Erik Van Brouwer :</u></p>
                         <p><strong>Adres:</strong> Bierstraat 123</p>
                         <p style="padding-left: 60px;"> 1000 Bierstede</p>
-                        <p style="padding-left: 45px;"><strong>Telefoon :</strong>+32 495 12.34.56</p>
+                        <p style="padding-left: 45px;"><strong>Telefoon :</strong>+32 495 12 34 56</p>
                         <p style="padding-left: 40px;"><strong>Email:</strong> <a href="#">erik@bierwereld.be</a></p>
                     </address>
                 </article>
