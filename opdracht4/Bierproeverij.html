@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BierWereld</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <!-- Bootstrap CSS icons: https://icons.getbootstrap.com/#usage -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- JavaScript: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- eigen geschreven css voor jouw html-bestand -->
+    <link href="./css/style.css" rel="stylesheet">
+      <!-- LEAFLET -->
+  <!-- voeg het leaflet css-bestand toe om de kaart van standaard opmaak te voorzien -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <!-- voeg het mapStyle.css bestand toe. Hierin zetten we alle css specifiek voor de kaart -->
+  <link rel="stylesheet" href="css/mapStyle.css">
+  <!-- voeg de leaflet.js javascript toe aan de pagina en check de integriteit ervan -->
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <!-- voeg het mapScript.js script toe aan de pagina en laad het als de pagina geladen is. -->
+  <script defer src="js/biermap.js"></script>
+</head>
+
+<body>
+    <main>
+        <h1 class="text-center">Bierwereld</h1>
+    <section class="container-fluid">
+        <nav class="navbar navbar-expand navbar-light">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 nav-pills border border-dark border-3 mx-auto">
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="biersoorten.html">Biersoorten</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link active" aria-current="page" href="bierproeverij.html">Bierproeverij</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="biermerken.html">Biermerken</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="biercultuur.html">Biercultuur</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bierbrouwen.html">Bierbrouwen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Bier_en_Gerechten.html">Bier en Gerechten</a>
+                    </li>
+
+                    
+                </ul>
+                
+              </nav>
+
+        </nav>
+      </section>
+      <section class="container-fluid text-center">
+        <article class="d-flex justify-content-end">
+          <form class="d-flex" role="search">
+            <input class="input border border-3 border-dark text-center" type="search" placeholder="Zoeken" aria-label="Search">
+          </form>
+        </article>
+      </section>
+    </main>
+    <h3 class="text-center "><u>Bierproeverij</u></h3>
+    <p class="small text-center fw-bolder"><em>Een reis door de smaak van bier</em></p>
+    <section class="container-fluid text-center">
+        <img class="w-50" src="images/bierproeverij_banner.jpg" alt="banner">
+    </section><br>
+    <p class="text-center">Een bierproeverij is veel meer dan alleen maar drinken. Het is een kunstvorm waarbij je je
+        zintuigen aanscherpt en diep in de complexe smaken en aroma's van bier duikt.<br> Of je nu een doorgewinterde
+        fijnproever bent of gewoon nieuwsgierig bent naar de wereld van bierproeverij, deze pagina zal je begeleiden op
+        een reis door de smaak van bier.</p>
+    <br>
+    <section class="container ml-auto px-5">
+        <p><strong>De kunst van bierproeverij</strong></p>
+        <p>Bierproeverij draait om het volledig waarderen van de smaak, geur en textuur van een bier. Hier zijn enkele
+            stappen om je bierproeverij-ervaring te verbeteren:</p>
+        <ol>
+            
+            <li class="mb-3"><strong>Zicht : </strong>Begin met het beoordelen van he bier. Let op de kleur, helderheid en
+                schuimkraag.</li>
+            <li class="mb-3"><strong>Aroma : </strong>Breng het glas voorzichtig naar je neus en inhaleer de aroma's. Probeer te
+                identificeren welke geuren naar voren komen, zoals hop, mout, fruitigheid of kruiden.</li>
+            <li class="mb-3"><strong>Smaak : </strong> Neem een slok en laat het bier over je tong rollen. Proef de verschillende
+                smaakelementen, van zoet tot bitter, van zuur tot umami.</li>
+            <li class="mb-3"><strong>Afdronk : </strong>Let op de nasmaak (afdronk) van het bier. Hoe lang blijft de smaak in je mond
+                hangen? Is het droog of plakkerig?</li>
+        </ol>
+        <P><strong>Bierstijlen ontdekken</strong></P>
+        <br>
+        <p>Bij een bierproeverij kun je verschillende bierstijlen verkennen. Ontdek de verscheidenheid aan smaken en
+            aroma's die de bierwereld te bieden heeft. Of je nu de voorkeur geeft aan lichte pilsners, hoppige IPA's,
+            rijke stouts of verfrissende weizenbieren, er is altijd iets nieuws om te ontdekken.</p>
+        <br>
+        <p><strong>Bier Proeven als een Professional</strong></p>
+        <figure class="figure">
+            <img src="images/bier.jpg" class="figure-img rounded" width="320" height="210" alt="verschillende bieren">
+            <figcaption class="figure-caption text-end">bierproeverij</figcaption>
+        </figure>
+
+        <p>Het proeven van bier als een professional vereist oefening en aandacht voor detail. Probeer verschillende
+            bieren naast elkaar te proeven om de nuances en verschillen te begrijpen. Noteer je observaties, en deel je
+            ervaringen met mede-bierliefhebbers. </p>
+        <p><strong>Bierproeverij bij Bierwereld</strong></p>
+        <p>Bij BierWereld geloven we in de kunst van bierproeverij en delen we graag onze passie voor de smaak van bier.
+            We bieden gidsen en tips om je te helpen een ervaren bierproever te worden. Of je nu op zoek bent naar
+            nieuwe favoriete bieren of gewoon wilt genieten van de rijke wereld van smaken, we heten je welkom om met
+            ons mee te proeven.</p>
+        <p class="text-center">Ontdek en proef een scala aan bieren met verschillende smaakprofielen. Hier is een overzicht van enkele
+            bieren die je tijdens onze bierproeverij kunt ervaren:</p>
+        <table class="table table-bordered table-striped border-dark" style="width:auto; margin: auto;">
+            <thead class="table-dark">
+                <tr>
+                    <th>Bier</th>
+                    <th>Smaakprofiel</th>
+                    <th>Alcoholpercentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pilsner</td>
+                    <td>Een lichte verfrissende lager met een heldere gouden kleur en een subtiele hopbitterheid.</td>
+                    <td>4.5 &#37;</td>
+                </tr>
+                <tr>
+                    <td>Stout</td>
+                    <td>Een rijke geroosterde smaak met tonen van chocolade en koffie.</td>
+                    <td>5.8 &#37;</td>
+                 </tr>
+                <tr>
+                    <td>IPA (Indian Pale Ale)</td>
+                    <td>Een uitgesproken hoparoma met een bittere afdronk.</td>
+                    <td>6.5 &#37;</td>
+                </tr>
+                <tr>
+                    <td>Weizenbier</td>
+                    <td>Een licht en verfrissend bier met hints van citrus en koriander.</td>
+                    <td>4.9 &#37;</td>
+                </tr>
+                <tr>
+                    <td>Trappistenbier</td>
+                    <td>Een complex en volmondig bier gebrouwen door Trappistenmonniken</td>
+                    <td>8.0 &#37;</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="col-9 mx-auto" >
+                    
+            <section id="map">
+                
+                <div id="biermap">
+                </section>
+        </div>
+    </section>
+
+</body>
+
+</html>
