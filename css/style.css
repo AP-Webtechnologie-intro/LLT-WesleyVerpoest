@@ -1,17 +1,172 @@
 body {
     padding: 20px;
-  background-color:#edd1bc;
+  background-color:#F4F1DE;
+  color:#3D405B
 
 }
 
-section  {
-
-  background-color:#edd1bc;
+.navbar-nav .nav-link {
+  color: #3D405B;
 }
-article {
-
-  background-color: #edd1bc;
+.navbar-nav .nav-link:hover {
+  color: #81B29A; 
 }
-table,p,li,tbody,nav,table,td,tr,h6,h1,h3,button,a,head{
-  color: #d01b24;
+.card {
+  background-color: #F4F1DE; 
+  border-color: #3D405B;
+}
+.card-body p {
+  color: #3D405B;
+}
+.card-title a {
+  color: #3D405B;
+}
+.card-title a:hover {
+  color: #81B29A; 
+}
+.card-text {
+  color: #3D405B;
+}
+.input {
+  background-color: #F4F1DE; 
+  border-color: #3D405B;
+  color: #3D405B;
+}
+
+.input::placeholder {
+  color: #3D405B;
+}
+
+.link-dark {
+  color: #3D405B;
+}
+
+.link-dark:hover {
+  color: #81B29A; 
+}
+.nav-pills .nav-link.active {
+  background-color: #E07A5F;
+  color: #F4F1DE;
+}
+.container-fluid img {
+  border: 3px solid #3D405B;
+}
+p {
+  color: #3D405B;
+}
+
+a {
+  color: #3D405B;
+}
+
+a:hover {
+  color: #81B29A; 
+}
+.btn {
+  background-color: #E07A5F;
+  color: #3D405B;
+  border: none;
+}
+.btn:hover {
+  background-color: #81B29A; 
+  color: #3D405B;
+}
+.form-label {
+  color: #3D405B;
+}
+.form-control {
+  background-color: #F4F1DE; 
+  border-color: #3D405B;
+  color: #3D405B;
+}
+
+.form-select-sm {
+  background-color: #F4F1DE; 
+  border-color: #3D405B;
+  color: #3D405B;
+}
+
+.form-select-sm option {
+  background-color: #F4F1DE; 
+  color: #3D405B;
+}
+.socials a {
+  color: #3D405B;
+}
+
+.socials a:hover {
+  color: #81B29A;
+}
+.card-body u {
+  color: #3D405B;
+}
+
+.leaflet-control-container .leaflet-top .leaflet-control-zoom a.leaflet-control-zoom-in,
+.leaflet-control-container .leaflet-top .leaflet-control-zoom a.leaflet-control-zoom-out {
+    background-color: #E07A5F;
+    color: #3D405B;
+}
+
+.leaflet-control-container .leaflet-top .leaflet-control-zoom a.leaflet-control-zoom-in:hover,
+.leaflet-control-container .leaflet-top .leaflet-control-zoom a.leaflet-control-zoom-out:hover {
+    background-color: #81B29A; 
+    color: #3D405B;
+}
+
+
+div.leaflet-popup-content-wrapper,
+div.leaflet-popup-tip {
+    background-color: #F4F1DE; 
+    color: #3D405B;
+    border: 1px solid #3D405B;
+}
+
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+
+  border-bottom: 1px solid #3D405B;
+}
+
+.table th {
+  background-color: #E07A5F;
+  color: #3D405B; 
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #F4F1DE; 
+}
+
+
+
+@media (max-width: 767px) {
+  .table th,
+  .table td {
+    padding: 8px;
+  }
+}
+
+small {
+  color: #3D405B;
+  display: block;
+  margin-top: 20px;
+}
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+  color: #E07A5F
+}
+
+.carousel .carousel-indicators li {
+  background-color: #E07A5F;
+  border-color: #E07A5F
+}
+
+.carousel .carousel-indicators .active {
+  background-color: #3D405B;
+  border-color: #3D405B;
 }
